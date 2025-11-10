@@ -40,6 +40,7 @@ public class Main {
                 case 3:
                     if (TaxCalculatorService.isEqualTaxes(earnings, spendings)) {
                         System.out.println("Можете выбрать любую систему налогообложения");
+                        break;
                     }
 
                     int earningsOnly = TaxCalculatorService.taxEarningsOnly(earnings);
